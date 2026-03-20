@@ -1,0 +1,4 @@
+flask
+requests
+python-dotenvpytho
+gunicorn
