@@ -1,0 +1,146 @@
+{% extends "base_full.html" %}
+
+{% block content %}
+
+<div class="product-container">
+
+<div class="product-header">
+
+<div class="hero">
+<h1>Products</h1>
+</div>
+
+
+
+<div class="products-grid">
+
+<div class="stats-column">
+
+<div class="stat-card clickable" onclick="filterProducts('all')">
+<p>Total Product</p>
+<h2>5,020</h2>
+</div>
+
+<div class="stat-card clickable" onclick="filterProducts('category')">
+<p>Total Category</p>
+<h2>50</h2>
+</div>
+
+</div>
+
+<!-- Top Categories -->
+<div class="card">
+<h3>Top Categories</h3>
+
+<div class="chart-container">
+<canvas id="categoriesChart"></canvas>
+</div>
+
+<button class="view-btn" onclick="openModal('categories')">
+View Details
+</button>
+
+</div>
+
+
+<!-- Product Engagement -->
+<div class="card">
+
+<h3>Product Engagement</h3>
+
+<div class="chart-container">
+<canvas id="engagementChart"></canvas>
+</div>
+
+<button class="view-btn" onclick="openModal('engagement')">
+View Details
+</button>
+
+</div>
+
+</div>
+
+
+<!-- TABLE -->
+<div class="table-card">
+
+<h3>All Products</h3>
+
+<table class="products-table" id="productsTable">
+
+<thead>
+<tr>
+<th onclick="sortTable(0)">Name</th>
+<th onclick="sortTable(1)">Date</th>
+<th onclick="sortTable(2)">Rating</th>
+<th onclick="sortTable(3)">Rate</th>
+<th onclick="sortTable(4)">Price</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr onclick="showProduct(this)">
+<td>iPhone 16 Pro Max</td>
+<td>Jan 24, 2025</td>
+<td>⭐ 5.0</td>
+<td>90%</td>
+<td>$650</td>
+</tr>
+
+<tr onclick="showProduct(this)">
+<td>Macbook Pro</td>
+<td>Jan 22, 2025</td>
+<td>⭐ 5.0</td>
+<td>80%</td>
+<td>$750</td>
+</tr>
+
+<tr onclick="showProduct(this)">
+<td>Minecraft Dirt Block</td>
+<td>Jan 20, 2025</td>
+<td>⭐ 4.9</td>
+<td>80%</td>
+<td>$250</td>
+</tr>
+
+<tr onclick="showProduct(this)">
+<td>Samsung Notebook</td>
+<td>Jan 20, 2025</td>
+<td>⭐ 4.9</td>
+<td>60%</td>
+<td>$200</td>
+</tr>
+
+<tr onclick="showProduct(this)">
+<td>Stanley</td>
+<td>Jan 15, 2025</td>
+<td>⭐ 4.9</td>
+<td>50%</td>
+<td>$1500</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+
+<!-- MODAL -->
+<div id="infoModal" class="modal">
+<div class="modal-content">
+<span class="close" onclick="closeModal()">×</span>
+<div id="modalBody"></div>
+</div>
+</div>
+
+
+<!-- Scripts should be here -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{ url_for('static', filename='productsCharts.js') }}"></script>
+<script src="{{ url_for('static', filename='products.js') }}"></script>
+
+{% endblock %}

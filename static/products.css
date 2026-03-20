@@ -1,0 +1,11 @@
+.chart-container {
+height: 230px;
+position: relative;
+}
+
+.card {
+height: 360px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}

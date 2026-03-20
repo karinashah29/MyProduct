@@ -1,0 +1,24 @@
+{% extends "base_full.html" %}
+
+{% block content %}
+
+<div style="width:100%; height:100vh; padding:0; margin:0;">
+    <iframe
+        src="https://calendar.google.com/calendar/embed?src=primary&showTitle=0&showTabs=0&showPrint=0&showCalendars=0"
+        style="
+            border:0;
+            width:100%;
+            height:100%;
+            border-radius:20px;
+        "
+        frameborder="0"
+        scrolling="no">
+    </iframe>
+</div>
+<style>
+.main-content {
+    background: #F3F4F6;
+}
+</style>
+
+{% endblock %}

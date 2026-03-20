@@ -1,0 +1,117 @@
+.activity-page{
+padding:40px;
+font-family:Inter, sans-serif;
+}
+
+.activity-title{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.activity-tabs{
+display:flex;
+gap:10px;
+align-items:center;
+margin-bottom:30px;
+}
+
+.activity-tabs button{
+border:none;
+padding:10px 18px;
+border-radius:8px;
+background:transparent;
+cursor:pointer;
+}
+
+.tab-btn.active{
+color:#00468B;
+font-weight:600;
+}
+
+.date-filter{
+margin-left:auto;
+background:#f3f4f6;
+padding:10px 18px;
+border-radius:8px;
+}
+
+
+.stats-row{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+align-items:center;
+text-align:center;
+margin-bottom:40px;
+position:relative;
+}
+
+.stat{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+
+.stat p{
+margin-top:6px;
+color:#6b7280;
+font-size:14px;
+text-align:center;
+}
+
+.stat h2{
+font-size:32px;
+margin:6px 0;
+}
+
+.divider{
+position:absolute;
+width:1px;
+height:70px;
+background:#e5e7eb;
+top:10px;
+}
+
+.divider:nth-child(2){
+left:33.33%;
+}
+
+.divider:nth-child(4){
+left:66.66%;
+}
+
+.badge{
+font-size:12px;
+padding:4px 8px;
+border-radius:6px;
+margin-left:8px;
+}
+
+.red{
+background:#fee2e2;
+color:#b91c1c;
+}
+
+.green{
+background:#dcfce7;
+color:#15803d;
+}
+
+
+.chart-card{
+background:white;
+border-radius:16px;
+padding:25px;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
+margin-bottom:30px;
+}
+
+.section-title{
+margin-top:30px;
+}
+
+.section-sub{
+color:#6b7280;
+margin-bottom:20px;
+}
+

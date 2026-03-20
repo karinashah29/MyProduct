@@ -1,0 +1,363 @@
+{% extends "base_full.html" %}
+
+{% block content %}
+
+<div class="vistors-container">
+
+<div class="visitors-header">
+
+<div class="hero">
+<h1>Team Members</h1>
+
+
+</div>
+
+
+</div>
+
+
+
+<div class="table-wrapper">
+
+<table class="team-table">
+
+<thead>
+<tr>
+<th><input type="checkbox"></th>
+<th>Name</th>
+<th>Status</th>
+<th>Email address</th>
+<th>Teams</th>
+<th><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7 7V5"/>
+</svg>
+</th>
+</tr>
+</thead>
+
+
+<tbody>
+
+<tr>
+
+<td><input type="checkbox"></td>
+
+<td class="user-cell">
+<img src="https://i.pravatar.cc/40?img=1">
+<div>
+<div class="name">Olivia Rhye</div>
+<div class="handle">@olivia</div>
+</div>
+</td>
+
+<td><span class="status active">Active</span></td>
+
+<td>olivia@untitledui.com</td>
+
+<td>
+<span class="tag design">Design</span>
+<span class="tag product">Product</span>
+</td>
+
+<td class="actions">
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+</svg>
+</span>
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M7 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h1m4-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm7.441 1.559a1.907 1.907 0 0 1 0 2.698l-6.069 6.069L10 19l.674-3.372 6.07-6.07a1.907 1.907 0 0 1 2.697 0Z"/>
+</svg>
+</span>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td><input type="checkbox"></td>
+
+<td class="user-cell">
+<img src="https://i.pravatar.cc/40?img=2">
+<div>
+<div class="name">Phoenix Baker</div>
+<div class="handle">@phoenix</div>
+</div>
+</td>
+
+<td><span class="status active">Active</span></td>
+
+<td>phoenix@untitledui.com</td>
+
+<td>
+<span class="tag product">Product</span>
+<span class="tag engineering">Software Engineering</span>
+</td>
+
+<td class="actions">
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+</svg>
+</span>
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M7 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h1m4-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm7.441 1.559a1.907 1.907 0 0 1 0 2.698l-6.069 6.069L10 19l.674-3.372 6.07-6.07a1.907 1.907 0 0 1 2.697 0Z"/>
+</svg>
+</span>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td><input type="checkbox"></td>
+
+<td class="user-cell">
+<img src="https://i.pravatar.cc/40?img=3">
+<div>
+<div class="name">Lana Steiner</div>
+<div class="handle">@lana</div>
+</div>
+</td>
+
+<td><span class="status offline">Offline</span></td>
+
+<td>lana@untitledui.com</td>
+
+<td>
+<span class="tag operations">Operations</span>
+<span class="tag product">Product</span>
+</td>
+
+<td class="actions">
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+</svg>
+</span>
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M7 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h1m4-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm7.441 1.559a1.907 1.907 0 0 1 0 2.698l-6.069 6.069L10 19l.674-3.372 6.07-6.07a1.907 1.907 0 0 1 2.697 0Z"/>
+</svg>
+</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td><input type="checkbox"></td>
+
+<td class="user-cell">
+<img src="https://i.pravatar.cc/40?img=1">
+<div>
+<div class="name">Olivia Rhye</div>
+<div class="handle">@olivia</div>
+</div>
+</td>
+
+<td><span class="status active">Active</span></td>
+
+<td>olivia@untitledui.com</td>
+
+<td>
+<span class="tag design">Design</span>
+<span class="tag product">Product</span>
+</td>
+
+<td class="actions">
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+</svg>
+</span>
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M7 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h1m4-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm7.441 1.559a1.907 1.907 0 0 1 0 2.698l-6.069 6.069L10 19l.674-3.372 6.07-6.07a1.907 1.907 0 0 1 2.697 0Z"/>
+</svg>
+</span>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td><input type="checkbox"></td>
+
+<td class="user-cell">
+<img src="https://i.pravatar.cc/40?img=2">
+<div>
+<div class="name">Phoenix Baker</div>
+<div class="handle">@phoenix</div>
+</div>
+</td>
+
+<td><span class="status active">Active</span></td>
+
+<td>phoenix@untitledui.com</td>
+
+<td>
+<span class="tag product">Product</span>
+<span class="tag engineering">Software Engineering</span>
+</td>
+
+<td class="actions">
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+</svg>
+</span>
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M7 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h1m4-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm7.441 1.559a1.907 1.907 0 0 1 0 2.698l-6.069 6.069L10 19l.674-3.372 6.07-6.07a1.907 1.907 0 0 1 2.697 0Z"/>
+</svg>
+</span>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td><input type="checkbox"></td>
+
+<td class="user-cell">
+<img src="https://i.pravatar.cc/40?img=3">
+<div>
+<div class="name">Lana Steiner</div>
+<div class="handle">@lana</div>
+</div>
+</td>
+
+<td><span class="status offline">Offline</span></td>
+
+<td>lana@untitledui.com</td>
+
+<td>
+<span class="tag operations">Operations</span>
+<span class="tag product">Product</span>
+</td>
+
+<td class="actions">
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+</svg>
+</span>
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M7 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h1m4-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm7.441 1.559a1.907 1.907 0 0 1 0 2.698l-6.069 6.069L10 19l.674-3.372 6.07-6.07a1.907 1.907 0 0 1 2.697 0Z"/>
+</svg>
+</span>
+</td>
+
+</tr>
+
+<tr>
+
+<td><input type="checkbox"></td>
+
+<td class="user-cell">
+<img src="https://i.pravatar.cc/40?img=1">
+<div>
+<div class="name">Olivia Rhye</div>
+<div class="handle">@olivia</div>
+</div>
+</td>
+
+<td><span class="status active">Active</span></td>
+
+<td>olivia@untitledui.com</td>
+
+<td>
+<span class="tag design">Design</span>
+<span class="tag product">Product</span>
+</td>
+
+<td class="actions">
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+</svg>
+</span>
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M7 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h1m4-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm7.441 1.559a1.907 1.907 0 0 1 0 2.698l-6.069 6.069L10 19l.674-3.372 6.07-6.07a1.907 1.907 0 0 1 2.697 0Z"/>
+</svg>
+</span>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td><input type="checkbox"></td>
+
+<td class="user-cell">
+<img src="https://i.pravatar.cc/40?img=2">
+<div>
+<div class="name">Phoenix Baker</div>
+<div class="handle">@phoenix</div>
+</div>
+</td>
+
+<td><span class="status active">Active</span></td>
+
+<td>phoenix@untitledui.com</td>
+
+<td>
+<span class="tag product">Product</span>
+<span class="tag engineering">Software Engineering</span>
+</td>
+
+<td class="actions">
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+</svg>
+</span>
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M7 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h1m4-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm7.441 1.559a1.907 1.907 0 0 1 0 2.698l-6.069 6.069L10 19l.674-3.372 6.07-6.07a1.907 1.907 0 0 1 2.697 0Z"/>
+</svg>
+</span>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td><input type="checkbox"></td>
+
+<td class="user-cell">
+<img src="https://i.pravatar.cc/40?img=3">
+<div>
+<div class="name">Lana Steiner</div>
+<div class="handle">@lana</div>
+</div>
+</td>
+
+<td><span class="status offline">Offline</span></td>
+
+<td>lana@untitledui.com</td>
+
+<td>
+<span class="tag operations">Operations</span>
+<span class="tag product">Product</span>
+</td>
+
+<td class="actions">
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
+</svg>
+</span>
+<span class="icon"><svg class="w-6 h-6 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" d="M7 19H5a1 1 0 0 1-1-1v-1a3 3 0 0 1 3-3h1m4-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm7.441 1.559a1.907 1.907 0 0 1 0 2.698l-6.069 6.069L10 19l.674-3.372 6.07-6.07a1.907 1.907 0 0 1 2.697 0Z"/>
+</svg>
+</span>
+</td>
+
+</tr>
+
+
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+{% endblock %}
